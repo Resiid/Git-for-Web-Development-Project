@@ -28,21 +28,16 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 ## Stretch
 Stretch Review questions: 
     1. What is the difference between an inline element and a block element?
-    * Elements inline are all on the same line - elements in a block are in the same box
 
-    2. What happens when an element is positioned absolutely? 
-    * Its placed in an exact location on the screen relative to the top-left of the page (or another positioned div per online query)
-
+    - Conceptual difference - Block elements cant go inside inline elements 
+    2. What happens when an element is positioned absolutely?
+    - The element is now 'stuck' or 'fixed' wherever you've placed it. 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    * create a box sizing property (border-box) and then any additional elements in that box you can modify/adjust the width to fit within that boxes borders. 
-
+    -Modifying the padding
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    * DIV / H1-6 / HEADER (BLOCK)
-    *IMG / NAV
-    *NAV
-
+    - None, Block, Inline and Inline-Block
     5. In your own words, explain the box model. What is the fix for the box model? 
-    *
+    - The box model represents a literal box but in CSS the parts of the box provide elements you can adjust/modify. Each individual element in the box model has a different place in the box. External to internal the box would go Margin > Border > padding > Content
 Stretch Git Tasks
 
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
