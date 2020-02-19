@@ -28,11 +28,23 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 ## Stretch
 Stretch Review questions: 
     1. What is the difference between an inline element and a block element?
+    * Elements inline are all on the same line - elements in a block are in the same box
+
     2. What happens when an element is positioned absolutely? 
+    * Its placed in an exact location on the screen relative to the top-left of the page (or another positioned div per online query)
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    * create a box sizing property (border-box) and then any additional elements in that box you can modify/adjust the width to fit within that boxes borders. 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    * DIV / H1-6 / HEADER (BLOCK)
+    *IMG / NAV
+    *NAV
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+    *
 Stretch Git Tasks
+
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
   - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
